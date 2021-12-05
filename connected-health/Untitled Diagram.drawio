@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T06:38:19.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="nFnoJl5Q6OiXZWacR1Wv" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-05T07:00:45.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="1STvaFOMN6FokevTuYZB" version="15.9.1" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-15" value="Cross-Functional Flowchart" style="shape=table;childLayout=tableLayout;rowLines=0;columnLines=0;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;fontStyle=1;align=center;shadow=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry width="970" height="400" as="geometry" />
+          <mxGeometry width="1060" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-16" value="Patient" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;fontStyle=1;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-15">
-          <mxGeometry y="40" width="970" height="120" as="geometry" />
+          <mxGeometry y="40" width="1060" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-17" value="Registration" style="swimlane;connectable=0;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-16">
           <mxGeometry x="40" width="280" height="120" as="geometry">
@@ -16,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-29" value="&lt;ol&gt;&lt;li&gt;Register with OTP&lt;/li&gt;&lt;li&gt;Link with UID/Aadhar&lt;/li&gt;&lt;li&gt;Add emergency authoriser&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-17">
-          <mxGeometry x="-10" y="25" width="200" height="70" as="geometry" />
+          <mxGeometry x="-10" y="30" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-18" value="Patient visit doctor" style="swimlane;connectable=0;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-16">
           <mxGeometry x="320" width="320" height="120" as="geometry">
@@ -27,12 +27,15 @@
           <mxGeometry x="-25" y="26" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-19" value="Emergency case" style="swimlane;connectable=0;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-16">
-          <mxGeometry x="640" width="330" height="120" as="geometry">
-            <mxRectangle width="330" height="120" as="alternateBounds" />
+          <mxGeometry x="640" width="420" height="120" as="geometry">
+            <mxRectangle width="420" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-34" value="&lt;ul&gt;&lt;li&gt;Allow to merge emergency records&lt;/li&gt;&lt;li&gt;If patient not capable, emergency authoriser can allow to merge records&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-19">
+          <mxGeometry x="-15" y="35" width="440" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-20" value="Doctor" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-15">
-          <mxGeometry y="160" width="970" height="120" as="geometry" />
+          <mxGeometry y="160" width="1060" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-21" value="" style="swimlane;connectable=0;startSize=0;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-20">
           <mxGeometry x="40" width="280" height="120" as="geometry">
@@ -51,15 +54,15 @@
           <mxGeometry x="-20" y="-10" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-23" value="" style="swimlane;connectable=0;startSize=0;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-20">
-          <mxGeometry x="640" width="330" height="120" as="geometry">
-            <mxRectangle width="330" height="120" as="alternateBounds" />
+          <mxGeometry x="640" width="420" height="120" as="geometry">
+            <mxRectangle width="420" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-33" value="&lt;ul&gt;&lt;li&gt;Create a emergency case&lt;/li&gt;&lt;li&gt;Record observation/medication&lt;/li&gt;&lt;li&gt;Later link to patient history&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-23">
           <mxGeometry x="-15" y="-10" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-24" value="Chemist" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-15">
-          <mxGeometry y="280" width="970" height="120" as="geometry" />
+          <mxGeometry y="280" width="1060" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-25" value="" style="swimlane;connectable=0;startSize=0;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-24">
           <mxGeometry x="40" width="280" height="120" as="geometry">
@@ -72,12 +75,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-27" value="" style="swimlane;connectable=0;startSize=0;collapsible=0;recursiveResize=0;expand=0;pointerEvents=0;shadow=0;sketch=0;" vertex="1" parent="Wt_2OUmQ5H-YqZhQW7VD-24">
-          <mxGeometry x="640" width="330" height="120" as="geometry">
-            <mxRectangle width="330" height="120" as="alternateBounds" />
+          <mxGeometry x="640" width="420" height="120" as="geometry">
+            <mxRectangle width="420" height="120" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Wt_2OUmQ5H-YqZhQW7VD-34" value="&lt;ul&gt;&lt;li&gt;Allow to merge emergency records&lt;/li&gt;&lt;li&gt;If patient not capable, emergency authoriser can allow to merge records&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="70" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
